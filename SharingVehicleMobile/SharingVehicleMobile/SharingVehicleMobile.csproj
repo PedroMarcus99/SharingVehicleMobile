@@ -51,10 +51,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\AgendarCarroExibir.cs" />
+    <Compile Include="Classes\CadastroCarroExibir.cs" />
     <Compile Include="Classes\CadastroCompraCombustivelExibir.cs" />
+    <Compile Include="Classes\CadastroGastoExibir.cs" />
     <Compile Include="Classes\CadastroGrupoExibir.cs" />
     <Compile Include="Classes\CadastroMotoristaExibir.cs" />
     <Compile Include="Classes\CadastroUsuarioExibir.cs" />
+    <Compile Include="Classes\CadastroVistoriaExibir.cs" />
+    <Compile Include="Classes\ConsultaValorContribuirExibir.cs" />
+    <Compile Include="Classes\MapaOficinaExibir.cs" />
+    <Compile Include="Classes\PesquisaVeiculoExibir.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Classes\PesquisaDadosExibir.cs" />
     <Compile Include="Classes\PesquisaRodizioExibir.cs" />
@@ -81,6 +88,27 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\PesquisarRodizio.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\AgendarCarro.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\CadastroCarro.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\CadastroGastos.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\PesquisarVeiculo.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\CadastroVistoria.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\ConsultaValorContribuir.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\MapaOficina.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
