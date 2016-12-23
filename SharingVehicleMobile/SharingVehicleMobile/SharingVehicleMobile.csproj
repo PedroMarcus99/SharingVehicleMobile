@@ -51,13 +51,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CadastroCompraCombustivelExibir.cs" />
-    <Compile Include="CadastroGrupoExibir.cs" />
-    <Compile Include="CadastroMotoristaExibir.cs" />
-    <Compile Include="CadastroUsuarioExibir.cs" />
+    <Compile Include="Classes\CadastroCompraCombustivelExibir.cs" />
+    <Compile Include="Classes\CadastroGrupoExibir.cs" />
+    <Compile Include="Classes\CadastroMotoristaExibir.cs" />
+    <Compile Include="Classes\CadastroUsuarioExibir.cs" />
     <Compile Include="MainActivity.cs" />
-    <Compile Include="PesquisaDadosExibir.cs" />
-    <Compile Include="PesquisaRodizioExibir.cs" />
+    <Compile Include="Classes\PesquisaDadosExibir.cs" />
+    <Compile Include="Classes\PesquisaRodizioExibir.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
