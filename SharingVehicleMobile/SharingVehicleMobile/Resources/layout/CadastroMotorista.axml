@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light">
+    <TextView
+        android:text="  Faça aqui seu Cadastro de Motorista"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="51.0dp"
+        android:id="@+id/textView1"
+        android:textColor="@android:color/holo_blue_light" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60.0dp"
+        android:id="@+id/txtNomeMotorista"
+        android:backgroundTint="#ffb4b4b4"
+        android:backgroundTintMode="screen"
+        android:text="                            Digite seu nome"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAllCaps="false" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60.0dp"
+        android:id="@+id/txtCNH"
+        android:backgroundTint="#ffb4b4b4"
+        android:backgroundTintMode="screen"
+        android:text="                            Digite seu CNH"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAllCaps="false" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60.0dp"
+        android:id="@+id/txtCPF"
+        android:backgroundTint="#ffb4b4b4"
+        android:backgroundTintMode="screen"
+        android:text="                            Digite seu CPF"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAllCaps="false" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60.0dp"
+        android:id="@+id/txtDataDeNascimentoMotorista"
+        android:backgroundTint="#ffb4b4b4"
+        android:backgroundTintMode="screen"
+        android:text="               Digite sua Data de Nascimento"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAllCaps="false" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60.0dp"
+        android:id="@+id/txtVencimentoCNH"
+        android:backgroundTint="#ffb4b4b4"
+        android:backgroundTintMode="screen"
+        android:text="          Digite a data de vencimento do CNH"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAllCaps="false" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60.0dp"
+        android:id="@+id/txtIdUsuarioMotorista"
+        android:backgroundTint="#ffb4b4b4"
+        android:backgroundTintMode="screen"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAllCaps="false"
+        android:text="                            ID de Usuário " />
+    <Button
+        android:text="Cadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="67.0dp"
+        android:id="@+id/btnCadastrarMotorista"
+        android:layout_marginBottom="39.0dp" />
+</LinearLayout>
