@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light">
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="229.5dp"
+        android:id="@+id/textView1"
+        android:textColor="@android:color/holo_blue_dark"
+        android:text="                  Pesquisa de Dados "
+        android:textStyle="normal" />
+    <Button
+        android:text="Pesquisar Motorista "
+        android:layout_width="match_parent"
+        android:layout_height="60.0dp"
+        android:id="@+id/button1" />
+    <Button
+        android:text="Pesquisar Vistoria"
+        android:layout_width="match_parent"
+        android:layout_height="60.0dp"
+        android:id="@+id/button2" />
+    <Button
+        android:text="Pesquisar Veículo"
+        android:layout_width="match_parent"
+        android:layout_height="60.5dp"
+        android:id="@+id/button3" />
+</LinearLayout>
