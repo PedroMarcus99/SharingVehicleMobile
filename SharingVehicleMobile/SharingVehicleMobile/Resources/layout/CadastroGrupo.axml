@@ -2,4 +2,36 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" />
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light">
+    <TextView
+        android:text="                  Cadastre um Grupo "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="40.0dp"
+        android:id="@+id/textView1"
+        android:textColor="@android:color/holo_blue_dark" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60.0dp"
+        android:id="@+id/txtNomeDoGrupo"
+        android:backgroundTint="#ffb4b4b4"
+        android:backgroundTintMode="screen"
+        android:text="                      Digite o nome do grupo"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAllCaps="false" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60.0dp"
+        android:id="@+id/txtRegiaoDoGrupo"
+        android:backgroundTint="#ffb4b4b4"
+        android:backgroundTintMode="screen"
+        android:text="                            Digite a região"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAllCaps="false" />
+    <Button
+        android:text="Cadastrar grupo"
+        android:layout_width="match_parent"
+        android:layout_height="58.0dp"
+        android:id="@+id/button1" />
+</LinearLayout>
