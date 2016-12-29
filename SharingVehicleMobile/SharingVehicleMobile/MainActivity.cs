@@ -4,7 +4,7 @@ using Android.OS;
 
 namespace SharingVehicleMobile
 {
-    [Activity(Label = "SharingVehicleMobile", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "SharingVehicleMobile", MainLauncher = true, Icon = "@drawable/sharing48")]
     public class MainActivity : Activity
     {
         protected override void OnCreate(Bundle bundle)
